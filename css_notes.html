@@ -1,0 +1,50 @@
+<!-- color property sete elements text color, background-color sets background color
+color can also take "red" as an input for example
+hex example -->
+p {
+    color: #1100ff
+}
+
+ <!-- rgb example -->
+p {
+    color: rgb(100, 0, 127);
+}
+
+<!-- hsl example -->
+p {
+    color: hsl(15, 82%, 56%);
+}
+
+<!-- font style
+ If a browser cant find a font, it will choose next one in list, as followed: -->
+p {
+    font-family: "Times New Roman", serif;
+}
+
+<!-- font size affects boldness of text, between 1 and 1000, increments of 100 -->
+ p {
+    font-weight: 700;
+ }
+
+ <!-- text align: align text horizontally within an element, uses keywords similar in word processors -->
+p {
+    text-align: center;
+}
+
+<!-- images height and width: -->
+ img {
+    height: auto;
+    width: 500px;
+ }
+ <!-- the auto means, e.g.: if original was 500px height and 10000px width, then the new height would be 250px
+best practice to explicitly say heigh and width to prevent text shifting when the picture loads -->
+
+
+
+<!-- There are 2 ways to add CSS to HTML: External CSS, Internal CSS, Inline CSS
+External CSS: (most common)
+Pros are: 1) keeps HTML and CSS separated, so HTML file is smaller and cleaner
+          2) we only need to edit CSS in one place
+
+Internal CSS:
+Adding the CSS within the HTML file itself
