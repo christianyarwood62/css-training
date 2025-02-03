@@ -4,4 +4,4 @@
     - border adds space between margin and padding
     - margin increases space between borders of a box and borders of adjacent boxes
 
-[alt text](./box%20model.png)
+![img](./box%20model.png)
