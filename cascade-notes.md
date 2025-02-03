@@ -10,10 +10,11 @@ There are multiple (we will look at 3) factors that cascade used:
 - Types of selectors also have specificity levels: ID, then Class, then Type (includes more but we covered these 3 for now)
 - when there is multiple selectors of the same type,the rule with the greater number of selectors will take precedence, e.g.: (color:red will take precedence because theres 2 selectors in that class)
 <!-- index.html -->
-
-' <div class="main">
+```
+<div class="main">
   <div class="list subsection">Red text</div>
-</div> '
+</div> 
+
 
 /* rule 1 */
 .subsection {
@@ -24,3 +25,4 @@ There are multiple (we will look at 3) factors that cascade used:
 .main .list {
   color: red;
 }
+```
