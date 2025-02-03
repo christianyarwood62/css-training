@@ -1,0 +1,4 @@
+# color property sete elements text color, background-color sets background color
+p {
+
+}

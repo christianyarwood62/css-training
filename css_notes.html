@@ -42,9 +42,49 @@ best practice to explicitly say heigh and width to prevent text shifting when th
 
 
 <!-- There are 2 ways to add CSS to HTML: External CSS, Internal CSS, Inline CSS
-External CSS: (most common)
+External CSS: (most common) Done by adding void <link> element inside <head> tag 
 Pros are: 1) keeps HTML and CSS separated, so HTML file is smaller and cleaner
-          2) we only need to edit CSS in one place
+          2) we only need to edit CSS in one place -->
 
-Internal CSS:
-Adding the CSS within the HTML file itself
+          <!-- index.html file -->
+<head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <!-- styles.css file -->
+
+div {
+  color: white;
+  background-color: black;
+}
+
+p {
+  color: red;
+}
+
+<!-- Internal CSS:
+Adding the CSS within the HTML file itself, by adding rules inside opening and closing <style> tags
+-->
+<head>
+  <style>
+    div {
+      color: white;
+      background-color: black;
+    }
+
+    p {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  ...
+</body>
+
+<!-- Inline CSS: use the "style" attribute in the element itself with quotations
+ This isnt as recommended because it can get essy and would have a lot of copy pasting -->
+ <body>
+    <div style="color: white; background-color: black;">...</div>
+  </body>
+
+  
