@@ -11,9 +11,9 @@ There are multiple (we will look at 3) factors that cascade used:
 - when there is multiple selectors of the same type,the rule with the greater number of selectors will take precedence, e.g.: (color:red will take precedence because theres 2 selectors in that class)
 <!-- index.html -->
 
-<div class="main">
+' <div class="main">
   <div class="list subsection">Red text</div>
-</div>
+</div> '
 
 /* rule 1 */
 .subsection {
