@@ -52,3 +52,6 @@ border-bottom-style
  1) if both margins are positive - the size will be the larget margin value
  2) two negative margins will collapse and smallest (furthest from zero) will be used
  3) if one margin is negative, the value will be subtracted from the positive margin
+
+## Using Display:
+- use "display: inline-block" to make item stay inline but respect width and height. Because with "display: inline", width and height are ignored
