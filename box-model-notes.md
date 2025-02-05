@@ -55,3 +55,17 @@ border-bottom-style
 
 ## Using Display:
 - use "display: inline-block" to make item stay inline but respect width and height. Because with "display: inline", width and height are ignored
+
+## Shorthand for margin:
+```
+margin: 0 3em 0 50px
+```
+- default values are margin top, margin right, bottom, then left
+- if first 2 values are set, then following pair will be assumed:
+```
+margin: 0 1.5em;
+margin: 0 1.5em 0 1.5em;
+```
+
+## Auto and centering:
+- setting auto as the value will in most cases make it 0 or else whatever space is available on that side of the element, useful for horizontal centering, **not vertical**
