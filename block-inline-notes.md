@@ -5,4 +5,4 @@
 - inline-block behave like inline elements but with block-style padding and margin, **You will probably use flexbox to line up a bunch of boxes**
 
 ## Divs and spans:
-- these dont have meaning to their context, unlike "<p>" paragraph elements
+- these dont have meaning to their context, unlike paragraph elements
